@@ -14,7 +14,16 @@
     },
 
     "variables":{
-        "blog":"https://witnessgpi.github.io/categories"
+        "blog":"https://witnessgpi.github.io/Books"
+    },
+
+    "links":{
+        "sidebar":{
+            "首页|主站":"https://witnessgpi.github.io",
+            "领域分类":"https://witnessgpi.github.io/categories",
+            "热点事件":"https://witnessgpi.github.io/categories",
+            "相关动漫":"https://witnessgpi.github.io/animation"
+        }
     },
 
 
@@ -73,7 +82,20 @@
       "theme-api"
   ],
   "pluginsConfig": {
-  	"sectionx": {
+  	"theme-api": {
+      "languages": [
+        {
+          "lang": "js",         
+          "name": "简介",  
+          "default": true        
+        },
+        {
+          "lang": "go",
+          "name": "相关资料"
+        }
+      ]
+    },
+    "sectionx": {
           "tag": "b"
         },
   	"edit-link": {
@@ -204,12 +226,17 @@
         {
           "target": "_blank", 
           "url": "http://witnessgpi.github.io/HotSpot", 
-          "name": "相关热点"  
+          "name": "热点事件"  
         },
         {
           "target": "_blank", 
           "url": "http://witnessgpi.github.io/Books", 
           "name": "相关书籍" 
+        },
+        {
+          "target": "_blank", 
+          "url": "http://witnessgpi.github.io/animation", 
+          "name": "相关动漫" 
         }
       ],
       
